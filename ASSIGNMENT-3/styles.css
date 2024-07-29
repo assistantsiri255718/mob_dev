@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('bgn\ copy.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+#container {
+    width: 300px;
+    text-align: center;
+}
+
+#login-container,
+#signup-container,
+#welcome-container {
+    background-color: rgb(241, 18, 130);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px sienna;
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(15, 0, 5, 0.04);
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
